@@ -1,0 +1,9 @@
+module "tf-187-stackcraftdemo" {
+  source = "module-187-stackcraftdemo"
+
+  # env - type: string
+  # env = "[PLACEHOLDER]"
+
+  # project - type: string
+  # project = "[PLACEHOLDER]"
+}
