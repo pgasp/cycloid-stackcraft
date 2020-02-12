@@ -16,3 +16,7 @@ config:
       path: pipeline/terraform-pipeline.yaml
     variables:
       path: pipeline/variables.sample.yaml
+  terraform:
+    187-demostack:
+      destination: ($ project $)/terraform/($ environment $)/187-demostack.tf
+      path: terraform/187-demostack.tf.sample

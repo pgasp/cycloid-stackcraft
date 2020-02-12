@@ -1,0 +1,9 @@
+module "tf-187-demostack" {
+  source = "module-187-demostack"
+
+  # env - type: string
+  # env = "[PLACEHOLDER]"
+
+  # project - type: string
+  # project = "[PLACEHOLDER]"
+}
